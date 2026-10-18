@@ -7,12 +7,12 @@ import com.campus.model.User;
 import javax.swing.*;
 import java.awt.*;
 
-public class LoginFrame extends JFrame {
+public class LoginUI extends JFrame {
     private JTextField emailField;
     private JPasswordField passField;
     private UserDAO userDAO = new UserDAO();
 
-    public LoginFrame() {
+    public LoginUI() {
         setTitle("Campus Lost & Found - Login");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
