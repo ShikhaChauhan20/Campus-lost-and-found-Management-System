@@ -9,7 +9,7 @@ public class MAIN{
         } catch (Exception ignored) {}
 
         SwingUtilities.invokeLater(() -> {
-            new LoginFrame().setVisible(true);
+            new LoginUI().setVisible(true);
         });
     }
 }
